@@ -2,7 +2,7 @@
 
 This is a Python library for interacting with the NHN Cloud SMS service.
 
-**Current version: 0.1.0**
+**Current version: 0.1.1**
 
 ## Installation
 
