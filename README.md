@@ -70,4 +70,4 @@ print(response)
 Make sure to replace placeholders (like `'your_app_key'`, `'your_secret_key'`, etc.) with actual values before using the library.
 
 ## Contact
-dev@runners.im
+Please contact dev@runners.im
