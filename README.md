@@ -9,7 +9,7 @@ This is a Python library for interacting with the NHN Cloud SMS service.
 To use this library, you need to have Python installed. You can install the required dependencies using pip:
 
 ```bash
-pip install requests
+pip install nhncloud-sms
 ```
 
 ## Usage

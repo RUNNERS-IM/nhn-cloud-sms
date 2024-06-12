@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='nhncloud_sms',
+    name='nhncloud-sms',
     version='0.1.3',
     packages=find_packages(),
     install_requires=[
@@ -11,7 +11,7 @@ setup(
     description='A Python library to send SMS using NHN Cloud API',
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/RUNNERS-IM/python-nhn-cloud-sms",
+    url="https://github.com/RUNNERS-IM/python-nhncloud-sms",
     author='RUNNERS',
     author_email="dev@runners.im",
     classifiers=[
