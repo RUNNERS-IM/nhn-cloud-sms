@@ -18,7 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     - `get_sms_status(request_id)`
     - `get_sent_sms_list(start_date, end_date)`
 - Added `.env` file support for SMS library
-  - Environment variables: `NHN_CLOUD_APP_KEY`, `NHN_CLOUD_SECRET_KEY`, `NHN_CLOUD_SENDER_PHONE_NUMBER`
+  - Environment variables: `NHN_CLOUD_SMS_APP_KEY`, `NHN_CLOUD_SMS_SECRET_KEY`, `NHN_CLOUD_SMS_SENDER`
 - Comprehensive test coverage with `unittest` and support for mocking API calls using `unittest.mock`
 
 ### Changed

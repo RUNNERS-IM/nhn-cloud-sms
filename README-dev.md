@@ -51,9 +51,9 @@ pytest
 Create a .env file in the root directory with the following content:
 
 ```plaintext
-NHN_CLOUD_APP_KEY=your_app_key
-NHN_CLOUD_SECRET_KEY=your_secret_key
-NHN_CLOUD_SENDER_PHONE_NUMBER=your_sender_phone_number
+NHN_CLOUD_SMS_APP_KEY=your_app_key
+NHN_CLOUD_SMS_SECRET_KEY=your_secret_key
+NHN_CLOUD_SMS_SENDER=your_sender_phone_number
 ```
 
 ## Building the Package

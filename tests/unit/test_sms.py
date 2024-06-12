@@ -10,9 +10,9 @@ load_dotenv()
 class NHNCloudSMSTest(unittest.TestCase):
     def setUp(self):
         self.sms_service = NHNCloudSMS(
-            app_key=os.getenv('NHN_CLOUD_APP_KEY'),
-            secret_key=os.getenv('NHN_CLOUD_SECRET_KEY'),
-            sender_phone_number=os.getenv('NHN_CLOUD_SENDER_PHONE_NUMBER')
+            app_key=os.getenv('NHN_CLOUD_SMS_APP_KEY'),
+            secret_key=os.getenv('NHN_CLOUD_SMS_SECRET_KEY'),
+            sender_phone_number=os.getenv('NHN_CLOUD_SMS_SENDER')
         )
 
     def test_send_sms(self):
